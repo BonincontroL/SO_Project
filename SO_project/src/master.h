@@ -1,0 +1,16 @@
+void load_Config();
+void execute_programs();
+void Stampa_Report();
+Porto trovaPortoOffertaMassima(Porto porti);
+void stampaPortoOffertaMassima(Porto porti);
+Porto trovaPortoRichiestaMassima(Porto porti);
+void stampaPortoRichiestaMassima(Porto porti);
+void stampaPortiOffertaERichiestaMassima(Porto porti);
+Porto trovaPortoRichiestaMassimaPerMerce(Porto porti, int tipoMerce);
+Porto trovaPortoOffertaMassimaPerMerce(Porto porti, int tipoMerce);
+void stampaInformazioniMerce(Porto porti, Nave navi);
+int calcolaQuantitaTotalePerTipo(Porto porti, Nave navi, int tipoMerce);
+void stampaPortiOffertaERichiestaMassima(Porto porti);
+void reportNave(Nave navi);
+void statoNave(int *in_mare_con_carico_ptr, int *in_mare_senza_carico_ptr, int *in_porto_ptr);
+void reportPorto(Porto porti);
